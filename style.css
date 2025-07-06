@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff7ed;
+  color: #5a4231;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bear {
+  width: 160px;
+  margin-bottom: -35px;
+}
+
+.card {
+  background-color: #fff0d7;
+  border: 3px solid #a87a53;
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.card_two{
+  display: none;
+  background-color: #fff0d7;
+  border: 3px solid #a87a53;
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.message{
+  text-align: center;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #d7b597;
+  background-color: #fffdf9;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f4c38e;
+  border: 2px solid #a87a53;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5a4231;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e5a66c;
+}
+
+.footer-icons {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer-icons i {
+  font-size: 24px;
+  color: #a87a53;
+  cursor: pointer;
+}
